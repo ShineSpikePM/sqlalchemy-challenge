@@ -72,7 +72,7 @@ def precip():
 
 # /api/v1.0/stations route
 @app.route("/api/v1.0/stations")
-def stationss():
+def stations():
     # show a list of the stations 
     # Perform a query to retrieve the names of the stations
     Query=session.query(Station.station).filter.all()
